@@ -1,0 +1,364 @@
+(page "index.html"
+  (:refer-clojure :exclude [int])
+  (:require-macros
+    [bootstrap.code             :as code])
+  (:require
+    [clojure.string             :as string]
+    [bootstrap.core             :as core]
+    [bootstrap.grid             :as grid]
+    [bootstrap.meta             :as meta]
+    [bootstrap.list             :as list]
+    [bootstrap.page             :as page]
+    [bootstrap.tabs             :as tabs]
+    [bootstrap.panel            :as panel]
+    [bootstrap.navbar           :as navbar]
+    [tailrecursion.hoplon.util  :as hutil]
+    [garden.core :refer [css]]))
+
+(def route (hutil/route-cell 10 "#/home/"))
+
+
+
+(defn hyphenate! []
+  (.. (js/jQuery "p") (addClass "hyphenate") (css "text-align" "justify"))
+  (.run js/Hyphenator))
+
+(def-values
+  [page-setup nav-bar
+   content-home
+   content-page2]
+  (page/navbar-fixed-top
+    route
+    "Grounded Solutions"
+    "Grounded Solutions"
+    [(a :href "#/home/"            "Home") (div)]
+    [(a :href "#/page2/" "Page Two") (core/container)]
+    ))
+
+(def indexed (partial map-indexed list))
+
+(defc gs-tasks {:cur nil :toc []})
+(defc example     1)
+
+
+
+
+
+#_(-------------Defelms-------------------)
+
+
+(defelem jump-to-toc [{:keys [tocs]} _]
+  (a :class "topfix" :do-scroll-to (cell= (some zero? (map :cur tocs)))))
+
+(defelem table-of-contents [{:keys [size toc]} _]
+  (let [toc* (cell= (indexed (:toc toc)))]
+    (ul :class "list-unstyled"
+      (loop-tpl
+        :size size
+        :bindings [[i title] toc*]
+        (li (a
+              :style "cursor:pointer;"
+              :on-click #(do (swap! toc assoc :cur nil)
+                             (swap! toc assoc :cur (inc @i)))
+              (text "~{title}")))))))
+
+(defelem gs-block [{:keys [toc type title]} kids]
+  (when toc (swap! toc update-in [:toc] conj title))
+  (panel/default :class (str "panel-" (name type))
+    (when toc
+      (a
+        :class "topfix"
+        :do-scroll-to (cell= (= ~(count (:toc @toc)) (:cur toc)))))
+    (panel/heading
+      (panel/title title))
+    (panel/body
+      kids
+      (when toc
+        (div :style "text-align:center"
+          (a :on-click #(do (swap! toc assoc :cur nil)
+                            (swap! toc assoc :cur 0))
+            "back to top"))))))
+
+(def gs-info (partial gs-block :type :info))
+(def gs-task (partial gs-block :toc gs-tasks :type :primary))
+
+
+(defn copyright-footer []
+  (footer
+    (div
+      "Copyright ©")))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(html :lang "en"
+  (head
+    (meta :charset "utf-8")
+    (meta :name "viewport"    :content "width=device-width, initial-scale=1.0")
+    (meta :name "keywords"    :content "")
+    (meta :name "description" :content "description")
+    (link :href "css/bootstrap.min.css"     :rel "stylesheet" :media "screen")
+    (link :href "css/starter-template.css"  :rel "stylesheet" :media "screen")
+    (link :rel "stylesheet" :type "text/css" :href "screen.css")
+    (title "Title")
+    )
+
+
+  (body
+
+    (style :type "text/css"
+           (css [:.box {:color "red"}]))
+
+
+    #_(nav-bar)
+    (a :class "topfix" :do-scroll-to (cell= route))
+
+
+    (noscript
+      (div :class "nojs-error"
+        "This page uses JavaScript but it looks like you have it turned off."))
+
+
+
+    (content-home
+
+      (core/jumbotron
+        (core/container
+          (div :class "logo-bar"
+               (img :class "logo"
+                    :src "img/grounded-trans-bar_02.png"))
+
+      )) #_("end jumbotron")
+
+      (core/container
+
+        (grid/row
+
+          (grid/col6
+
+            (h2 :class "description" "Natural Planet Health Care")
+            )
+
+          (grid/col6
+
+            (div :class "contact"
+                 (h4 "Contact")
+                 (span :class "name" "Amanda Martin")
+                 (span :class "telephone" (small "tel:") " 352.219.5381")
+                 (a :class "web" :href "http://groundedsol.com" "GroundedSol.com")
+                 (a :class "email" :href "mailto:groundedsolution@gmail.com" "GroundedSolution@gmail.com"))
+            )
+
+          )
+
+
+        (grid/row
+
+          (grid/col
+
+             (div :class "product-availibility"
+                 (span "Larger sizes available upon request")
+                 (span "All products available in Quart, Gallon, 2.5 Gallon and 5 Gallon"))
+
+
+             (list/divgroup
+
+
+              (list/divitem :on-click #(reset! example 1)
+                (a :do-toggle (cell= (not= example 1))
+                  (h3 "Liquid Products")
+                  (span "Drench or foliar application")
+                  )
+                (div :do-toggle (cell= (= example 1))
+                  (h3 "Liquid Products")
+                  (span "Drench or foliar application")
+
+                  (div :class "product-list" 
+                       
+
+                       (div(h4 "Vermaplex ®")
+                        (p "OMRI Listed, Certified Organic VermaPlex is a concentrated all natural microbial soil amendment as well as a plant probiotic liquid, designed to enhance plant growth, flowering and fruit production. VermaPlex is derived from pure Black Castings™ and contains liquid humate, soluble sea kelp, yucca, amino acids, beneficial microbes and other natural ingredients.")
+
+                        (div
+                          (ul :class "qualities"
+                            (li "Contains auxins (root growth), cytokinins (shoot growth)")
+                            (li "Contains endo and ecto mycorrhizzae")
+                            (li "Other useful microbes, such as heterotrophic bacteria, fungi, actinomycetes, nitrogen fixers, and phosphate stabilizers.")
+                            (li "Builds root zone health protecting from soil borne pathogens.")
+                            (li "Enhances water retention capabilities of the soil.")
+                            (li "Increases the efficiency of commercial fertilizer usage.")
+                            (li "Mitigates nitrate leaching into water table or nearby water bodies.")
+                            (li "A natural liquid extract (not a compost tea)"))
+
+                          (h5 "VermaPlex Rate")
+                          (p "For foliar application use 4 oz to 1 gallon of water. For drenching or watering all plants use 2 oz to 1 gallon of water. For root dip or applying to compost use 8 oz to 1 gallon of water.")
+                          )
+                        )
+
+
+                       (div(h4 "VermaMax-LE ®")
+                         (p "A liquid extract from Omri Certiﬁed Pure Black Castings™ and VermaMax®. VermaMax-LE is a microbial soil inoculant and liquid fertilizer. This probiotic liquid concentrate also contains liquid humate, yucca, and soluble sea kelp."))
+
+                       (div(h4 "Black Sea Kelp")
+                           (p "A balanced source of macronutrients and micronutrients, providing over 60 trace elements plants need in very small quantities. Kelp also contains growth-promoting hormones and enzymes. Used a growth enhancer, kelp helps roots absorb nutrients more effectively from the soil. 100% organic and has been used by farmers for centuries. Not known to clog emitters."))
+
+                       (div(h4 "Hydrolyzed Fish + Kelp")
+                           (p "Hydrolyzed Fish can be mixed with most liquid fertilizers during seeding, pre-planting, side dress, and irrigation. This fertilizer uses every piece of the ﬁsh through a cold pasteurizing technique, retaining the most nutrients and amino acids naturally found in ﬁsh. Kelp extract is included, increasing nutrition in the form of Humic acid, Fulvic acid, and Colloidal minerals. This mixture also contains natural rooting hormones that improve root length and root mass. (span In conjunction with beneﬁcial) microbe activity, hydrolyzed ﬁsh + kelp allows the absorption of nutrients more efﬁciently. NPK = 2 - 5 - 0 * Strong odor, may clog emitters, do not tank mix with herbicides."))
+                  )
+                )
+              ) #_("end divitem")
+
+            (list/divitem
+              :on-click #(reset! example 2)
+              (a   :do-toggle (cell= (not= example 2))
+                (h3 "Granular and Powder products")
+                (span "To be tilled into soil or used as top-dress above roots")
+                )
+              (div  :do-toggle (cell= (= example 2))
+                (h3 "Granular and Powder products")
+                (span "To be tilled into soil or used as top-dress above roots")
+
+                (div :class "product-list"
+
+                     (div
+                       (h4 "Black Castings")
+                         (p ":OMRI Listed, Certiﬁed Organic 99.9% Pure Earthworm Castings produced from a blend of pure organic materials. This proprietary process of cultivation results in a consistent, slow release, bio-diverse organic fertilizer produced by earthworms. Castings are rich in minerals and natural microorganisms enhancing the natural soil food web. NPK = 1.0 - 0.5 - 0.2")
+                           ;(p "OMRI Listed, Certified Organic 99.9% Pure Earthworm Castings produced from a blend of pure organic materials. This proprietary process results in a consistent, slow release, bio-diverse organic fertilizer produced by earthworms. Castings are rich in minerals and natural microorganisms enhancing the natural soil food web. No human, animal, food or yard wastes are used in this process. It is safe to use in all places")
+
+
+                           (ul :class "qualities"
+                               (li "NPK = 1.0 - 0.5 - 0.2")
+                               (li "Spring and fall applications assist in Green-up and Winter Conditioning.")
+                               (li "Increases drought resistance in plants and trees. ")
+                               (li "Adds organic materials into the soil.")
+                               (li "Increases Cation Exchange Capacity, increasing fertilization efficiency.")
+                               (li "Will not burn plants.")
+                               (li "Stabilizes soil pH around root zone.")
+                               (li "Increases biological activity in the soil.")
+                               (li "Builds a natural competitive exclusion to pests and diseases.")
+                               (li "Enhances root growth, flowering and fruit production.")
+                               (li "Zero ground water contamination & no nitrogen run-off.")
+                               (li "Not contaminated by any soil or compost blends.")
+                               )
+                           (h5 "VermaPlex Rate")
+                           (p "For foliar application use 4 oz to 1 gallon of water. For drenching or watering all plants use 2 oz to 1 gallon of water. For root dip or applying to compost use 8 oz to 1 gallon of water.")
+                         )
+
+                     (div(h4 "VermaMax ®")
+                         (p "OMRI Listed Certiﬁed Organic plant food made from Pure Black Castings™ and organic poultry compost (chicken litter) treated with VermaPlex® for extra nitrogen needs. Enhances plant growth, ﬂowering and fruit production. This all purpose, indoor/outdoor all natural organic plant food provides extra nitrogen and 6.72% Calcium. NPK = 3.0 - 2.8 - 1.8"))
+
+                     (div(h4 "Granular Kelp Meal")
+                         (p ":A granular seaweed product derived from Ascophyllum nodosum, the species of kelp best suited for agricultural and horticultural applications. Kelp meal is an excellent source of potash, for root development, and will aid in plant resistance to nematodes, disease and small pests."))
+
+                     (div(h4 "Nutri-cast")
+                         (p "a blend of Pure Black Castings™ and NutriSmart™ Bio-Fertilizer. Loaded with beneﬁcial enzymes, microorganisms, and humic acids, Nutri-Cast provides an organic energy source for biological activity in the soil. This micronutrient blend stimulates germination, root system development, increases plant stress tolerance and pest/disease resistance. Nutri-Cast inﬂuences metabolic activity such as photosynthesis, respiration, nucleic acid synthesis and iron uptake. Also used as a soil conditioner to neutralize excessive salts built up in the soil through repeated applications of chemicals and high salt fertilizers."))
+
+                     (div(h4 "Palm Perfection")
+                         (p "Another high quality blended product made from Omri Certiﬁed Pure Black Castings™, Black Sea Kelp and Liquid Yucca Extract. Florida sandy soils are often deﬁcient in a multitude of trace elements; this blend of micronutrients restores nutrients to the soil while stabilizing them from the threat of leaching."))
+                   )
+                ;end product list
+                )
+              ) #_("end divitem")
+
+            (list/divitem
+              :on-click #(reset! example 3)
+              (a   :do-toggle (cell= (not= example 3))
+                   (h3 "Amend products directly into soil")
+                   (span "For speciﬁc plant needs or condition soil for general health")
+                   )
+              (div  :do-toggle (cell= (= example 3))
+                    (h3 "Amend products directly into soil")
+                    (span "For speciﬁc plant needs or condition soil for general health")
+
+                    (div :class "product-list"
+
+                         (div(h4 "Coral Calcium 34%")
+                             (p "Sustainably farmed, Coral calcium is composed primarily of calcium carbonate (CaCO3), with small amounts of magnesium and other trace minerals. Used to increase the pH of the soil (make more alkaline) while increasing water penetration and nutrient uptake of NPK when growing in acidic soils."))
+
+                         (div(h4 "Leonardite")
+                             (p "A granular source of humic acid (up to 90%) is used as a soil conditioner to improve the soil’s physical qualities. Humic acid will bind cations (positively charged elements), such as Mg++, Ca++, Fe++, and other trace elements of value to plants. In this way, it grabs minerals locked up in the soil and holds onto newly applied fertilizer, preventing leaching. Leonardite facilitates the uptake of the ions (nutrients) by holding them until plants can and need to access them."))
+
+                         (div(h4 "Liquid Humate Plus")
+                             (p "A liquid source for increasing the Cation Exchange Capacity (CEC). Liquid humate plus will bind and hold elements in a localized area for root system uptake. Used in conjunction with VermaPlex ® probiotic microbes, macronutrients (NPK) and micronutrients (trace elements) will be in an available form, increasing the efﬁciency of each application of fertilizer, reducing the need for frequent applications."))
+
+                         (div(h4 "Fulvic Acid 5%:")
+                             (p "Due to the relatively small size of Fulvic acid molecules they can readily enter plant roots, stems, and leaves. As they enter these plant parts they carry trace minerals from plant surfaces into plant tissues. Fulvic acids are key ingredients of high quality foliar fertilizers due to oxygen content twice that of humic acids, and increased chemical reactivity of multiple carboxyl (COOH) and hydroxyl (COH) groups."))
+
+                         (div(h4 "Yucca Liquid Extract")
+                             (p "100% natural wetting agent derived from Yucca schidegera. Yucca increases soil permeability, allowing water and nutrients to reach plants faster while improving the soil’s water holding capacity. Use as a surfactant when applying biological pest control or liquid fertilizers for increased surface area coverage and longer staying capacity on each leaf for residues to be most effective."))
+                     )
+                  )
+              ) #_("end divitem")
+
+
+                  ) #_("end divgroup")
+
+            #_(hr)
+            #_(panel/default
+  (panel/heading
+                (panel/title "Panel"))
+              (panel/body
+                (tabs/tabs
+                  (span "1")(span "panel 1")
+                  (span "2")
+                  (span "panel 2")
+ "panel 2")
+                  ))
+
+
+            ;(hr)
+            ;(copyright-footer)
+
+
+              ) #_("end grid column")
+              ) #_("end grid row")
+
+          )#_("end core container")
+        )#_("end content-home")
+
+    (content-page2
+      (grid/row
+        (grid/col6
+
+          (jump-to-toc :tocs (cell= [gs-tasks]))
+          (table-of-contents :size 10 :toc gs-tasks)
+
+
+          (gs-task :title "Tabs Demo"
+                   (panel/default
+                     (panel/body
+                       (tabs/tabs
+                         (span "Zero")
+                         (div
+                           (h4 "Foo")
+                           (p "Content for tab 0."))
+                         (span "One")
+                         (div
+                           (h4 "Bar")
+                           (p "Content for tab 1."))
+                         (span "Two")
+                         (div
+                           (h4 "Baz")
+                           (p "Content for tab 2.")))))
+            )
+          )
+
+        )
+
+      (hr)
+
+      (copyright-footer)
+
+      )    #_("end content-page2")
+
+    )#_("end html-body")

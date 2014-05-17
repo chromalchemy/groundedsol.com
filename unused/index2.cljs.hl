@@ -1,0 +1,171 @@
+(page "index.html"
+  (:refer-clojure :exclude [int])
+  (:require-macros
+    [bootstrap.code             :as code])
+  (:require
+    [clojure.string             :as string]
+    [bootstrap.core             :as core]
+    [bootstrap.grid             :as grid]
+    [bootstrap.meta             :as meta]
+    [bootstrap.list             :as list]
+    [bootstrap.page             :as page]
+    [bootstrap.tabs             :as tabs]
+    [bootstrap.panel            :as panel]
+    [bootstrap.navbar           :as navbar]
+    [tailrecursion.hoplon.util  :as hutil]
+    [garden.core :refer [css]]))
+
+
+(def route (hutil/route-cell 10 "#/home/"))
+
+
+
+
+(defn hyphenate! []
+  (.. (js/jQuery "p") (addClass "hyphenate") (css "text-align" "justify"))
+  (.run js/Hyphenator))
+
+(def-values
+  [page-setup nav-bar
+   content-home
+   content-page2]
+  (page/navbar-fixed-top
+    route
+    "Grounded Solutions"
+    "Grounded Solutions"
+    [(a :href "#/home/"            "Home") (div)]
+    [(a :href "#/page2/" "Page Two") (core/container)]
+    ))
+
+(def indexed (partial map-indexed list))
+
+(defc gs-tasks {:cur nil :toc []})
+(defc example     1)
+
+
+
+
+
+#_(-------------Defelms-------------------)
+
+
+(defelem jump-to-toc [{:keys [tocs]} _]
+  (a :class "topfix" :do-scroll-to (cell= (some zero? (map :cur tocs)))))
+
+(defelem table-of-contents [{:keys [size toc]} _]
+  (let [toc* (cell= (indexed (:toc toc)))]
+    (ul :class "list-unstyled"
+      (loop-tpl
+        :size size
+        :bindings [[i title] toc*]
+        (li (a
+              :style "cursor:pointer;"
+              :on-click #(do (swap! toc assoc :cur nil)
+                             (swap! toc assoc :cur (inc @i)))
+              (text "~{title}")))))))
+
+(defelem gs-block [{:keys [toc type title]} kids]
+  (when toc (swap! toc update-in [:toc] conj title))
+  (panel/default :class (str "panel-" (name type))
+    (when toc
+      (a
+        :class "topfix"
+        :do-scroll-to (cell= (= ~(count (:toc @toc)) (:cur toc)))))
+    (panel/heading
+      (panel/title title))
+    (panel/body
+      kids
+      (when toc
+        (div :style "text-align:center"
+          (a :on-click #(do (swap! toc assoc :cur nil)
+                            (swap! toc assoc :cur 0))
+            "back to top"))))))
+
+(def gs-info (partial gs-block :type :info))
+(def gs-task (partial gs-block :toc gs-tasks :type :primary))
+
+
+(defn copyright-footer []
+  (footer
+    (div
+      "Copyright ©")))
+
+
+(html :lang "en"
+
+
+
+  (body
+
+
+    (a :class "topfix" :do-scroll-to (cell= route))
+
+
+    (content-home
+
+
+
+        (core/container
+          (grid/row
+            (grid/col6
+
+              )
+
+            (grid/col6
+
+              )
+
+            )
+
+
+        (grid/row
+
+          (grid/col
+
+
+            )
+
+             (list/divgroup
+
+
+              (list/divitem :on-click #(reset! example 1)
+                (a :do-toggle (cell= (not= example 1))
+                  (h3 "Liquid Products")
+                  (span "Drench or foliar application")
+                  )
+
+              ) #_("end divitem")
+
+            (list/divitem
+              :on-click #(reset! example 2)
+              (a   :do-toggle (cell= (not= example 2))
+                (h3 "Granular and Powder products")
+                (span "To be tilled into soil or used as top-dress above roots")
+                )
+
+
+            (list/divitem
+
+              (a
+                   (h3 "Amend products directly into soil")
+                   (span "For speciﬁc plant needs or condition soil for general health")
+                   )
+
+
+
+
+                  ) #_("end divgroup")
+
+
+            )
+
+
+               ) #_("end grid column")
+              ) #_("end grid row")
+
+              )#_("end core container")
+        )#_("end content-home")
+
+
+
+          #_("end html-body")
