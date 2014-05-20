@@ -1,20 +1,10 @@
 (page "index.html"
       (:refer-clojure :exclude [int + - * /])
       (:require-macros
-         [bootstrap.code             :as code]
          [garden.def :refer [defrule defkeyframes]]
        )
       (:require
          #_[clojure.string             :as string]
-         [bootstrap.core             :as core]
-         [bootstrap.grid             :as grid]
-         [bootstrap.page             :as page]
-         [bootstrap.navbar           :as navbar]
-         ;;[bootstrap.meta             :as meta]
-         ;;[bootstrap.list             :as list]
-         ;;[bootstrap.tabs             :as tabs]
-         ;;[bootstrap.panel            :as panel]
-         [tailrecursion.hoplon.util  :as hutil]
 
          [garden.core :as gcss :refer [css]]
          [garden.color :as color :refer [hsl rgb]]
@@ -26,6 +16,7 @@
 
          ;;[jayq.core :as jq :refer [$]]
 
+         [tailrecursion.hoplon.util  :as hutil]
          [tailrecursion.hoplon.reload :refer [reload-all]]
          ;;[clojure.browser.repl]
 
@@ -43,7 +34,7 @@
 
 ;;(add-initfn! mess-w-elem)
 
-(defc height-cell 100)
+;;(defc height-cell 100)
 
 
 (html
@@ -52,64 +43,61 @@
     (meta :name "viewport"    :content "width=device-width, initial-scale=1.0")
     (meta :name "keywords"    :content "")
     (meta :name "description" :content "description")
-    (link :href "css/bootstrap.min.css"     :rel "stylesheet" :media "screen")
-    (link :href "css/starter-template.css"  :rel "stylesheet" :media "screen")
-   (link :href "css/app.css" :rel "stylesheet" :media "screen")
-     (link :href "css/animate.min.css"  :rel "stylesheet" :media "screen")
+  (link :href "css/app.css" :rel "stylesheet" :media "screen")
+  ;;(link :href "css/animate.min.css"  :rel "stylesheet" :media "screen")
     (link :rel "stylesheet" :type "text/css" :href "screen.css")
     (title "Grounded Solutions"))
 
   (body
 
-  (p :class "page-dimensions-callout"
-   :css {:height "~{height-cell}px"
-         :position "absolute"
-           :top "20px"
-           :left "20px"
-           :background-color "red"
-           :color "white"
-           :z-index "2000"
-           :padding ".5em"
-           :display "block"}
-     (text "demo text"))
+;;   (p :class "page-dimensions-callout"
+;;    :css {:position "absolute"
+;;            :top "20px"
+;;            :left "20px"
+;;            :background-color "red"
+;;            :color "white"
+;;            :z-index "2000"
+;;            :padding ".5em"
+;;            :display "block"}
+;;      (text "demo text"))
 
-    (core/jumbotron
-      (core/container
+    (div :class "jumbotron"
+      (div :class "container"
         (div :class "logo-bar"
              (img :class "logo" :src "/img/grounded-trans-bar_02.png"))))
 
     (div :class "colordiv")
 
-  (core/container :class "main-body"
+  (div :class "container" :class "main-body"
 
 
 
-                  (grid/row
-        (grid/col1)
-        (grid/col4
+                  (div :class "row"
+        (div :class "column span-1")
+        (div :class "column span-4"
 
          ;;(h1 :class "animated fadeInDownBig demox" "Hello")
-          (h2 :class "tag-line"  "Natural Planets Health Care")
+          (h2 :class "tag-line"  "Natural Planet Health Care")
 
 
           (div :class "product-availibility"
                (span "Larger sizes available upon request")
                (span "All products available in Quart, Gallon, 2.5 Gallon and 5 Gallon")))
-        (grid/col2)
-        (grid/col5
+        (div :class "column span-2")
+        (div :class "column span-5"
           (div :class "contact"
                (h4 "Contact")
                (span :class "name" "Amanda Martin")
-               (span :class "telephone" (small "tel:") " 352.219.5381")
+               (span :class "telephone"  "tel: 352.219.5381")
                #_(a :class "web" :href "http://groundedsol.com" "GroundedSol.com")
                (a :class "email" :href "mailto:groundedsolution@gmail.com" "GroundedSolution@gmail.com"))))
 
 
 
-  (grid/row
+  (div :class "row"
 
 
-      (grid/col4 :class "product-cat"
+      (div :class "column span-4 product-cat"
         (h3 "Liquid Products")
         (span "Drench or foliar application")
 
@@ -144,7 +132,7 @@
 
 
 
-      (grid/col4 :class "product-cat"
+      (div :class "column span-4 product-cat"
         (h3 "Granular and Powder products")
         (span "To be tilled into soil or used as top-dress above roots")
 
@@ -181,7 +169,7 @@
                  (div(h4 "Palm Perfection")
                      (p "Another high quality blended product made from Omri Certiﬁed Pure Black Castings™, Black Sea Kelp and Liquid Yucca Extract. Florida sandy soils are often deﬁcient in a multitude of trace elements; this blend of micronutrients restores nutrients to the soil while stabilizing them from the threat of leaching."))))
 
-      (grid/col4 :class "product-cat"
+      (div :class "column span-4 product-cat"
         (h3 "Amend products directly into soil")
         (span "For speciﬁc plant needs or condition soil for general health")
 
