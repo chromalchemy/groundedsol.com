@@ -1,45 +1,209 @@
 @import "settings";
 @import "foundation";
+@import "bourbon";
+@import "mixins";
+@import "colors";
 
 // Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switch",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
 
+
+header {
+	@include grid-row;
+	background-color: transparentize(white, .15);
+	//color: $pale-blue;
+	// @include background(
+	// 	linear-gradient(
+	// 		transparentize($warm-light-neutral, .4), 
+	// 		hsla(0, 0%, 100%, 0)) top no-repeat
+	// 	);
+	padding-bottom: 2em;
+
+	.logo {
+		@include grid-column($columns:12);
+		background-image: url(/img/logo.png);
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 190px;
+		top: 30px;
+		margin-bottom: 1.5em;
+		background-size: 100% auto;
+	}
+
+	.copy-block {
+		@include grid-column($columns:12);
+		color: $cool-light-green;
+	}
+
+	.tag-line {
+		width: 100%;
+		font-weight: bold;
+		color: inherit;
+		@include text-shadow;
+		margin-top: 1em;
+}
+	.telephone {
+		color: inherit;
+		font-size: 2rem;
+		display: block;
+		letter-spacing: .03em;
+		@include text-shadow;
+	}
+}
+
+
+
+.products-photo {
+	display: block;
+	// border: 14px solid $middle-grey;
+	border: {
+		top: 1px solid black;
+		bottom: 1px solid black;
+	}
+	@include background(
+		linear-gradient(
+			transparentize($warm-light-neutral, .4), 
+			hsla(0, 0%, 100%, 0)) top no-repeat
+		);
+}
+
+.main-content {
+	margin-bottom: 2em;
+}
+
+.products {
+	background-color: transparentize($warm-light-neutral, .1);
+	padding-top: .5em;
+}
+
+h2.products-title {
+	color: $cool-light-green;
+	font-weight: bold;
+	font-size: 4em;
+}
 
 .product-cat {
- color: black;
+	@include grid-column($columns:4); 
+
+	h3 {
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+	span {
+		font-size: 1em;
+		color: #777;
+		line-height: 1.3em;
+		display: block;
+		margin-bottom: 1em;
+	}
 }
+
+
+.product {
+	.title {
+		margin-top: 1em;
+		margin-bottom: .5em;
+		font-size: 1.5em;
+		color: $white;
+		@include text-shadow;
+		span {
+			display: inline;
+			font-size: inherit;
+			font-size: .5em;
+			color: inherit;
+			@include text-shadow;
+		}
+	}
+	
+	
+
+	p {
+		line-height: 1.4em;
+		font-size: .85em; 
+	}
+}
+
+.qualities {
+	list-style-type: circle;
+	li {
+		font-size: .8em;
+		font-weight: bold;
+		line-height: 1.3em;
+		margin-bottom: 1em;
+	}
+}
+
+.product-availibility {
+	display: block;
+}
+
+
+
+html { 
+  background: {
+		image: url(/img/soil-dark.jpg);
+		repeat: no-repeat;
+		position: center center;
+		attachment: fixed;
+		color: transparent;
+		size: cover;
+	} 
+}
+
+
+
+
+footer {
+	margin-top: 3em;
+	padding: {
+		top: 1.5em;
+		bottom: 2em; 
+	}
+	@include background( linear-gradient(transparentize($dark-brown, .2), #000));
+
+	.contact {
+		color: $white;
+		@include grid-row;
+		line-height: 1.5em;
+		letter-spacing: .05em;
+
+		h4 {
+			color: inherit;
+		}
+
+		.name {font-size: 1.1em}
+		.telephone {
+			font-size: 1.5em;
+			display: block;
+		}
+		.web {}
+		.email {
+			font-size: 1.7em;
+			text-align: right;
+			display: block;
+		}
+	}
+}
+
+.list-group-item {
+	border: none;
+
+	div span { 
+		font-size: 1.3em;
+	}
+}
+
+a {
+	color: $light-green;
+
+	&:hover {
+		color: $light-green;
+		text-decoration: underline;
+	}
+}
+
+.facebook-feed div {
+	background-color: white;
+}
+
+

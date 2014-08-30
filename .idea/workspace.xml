@@ -1,9 +1,443 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a3f35b4-8008-4c34-bbb9-c4a6e835c3b6" name="Default" comment="worked out bug by rebuilding from scratch, scraping off of boostrasp laden hoplon.io page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unused/index2.cljs.hl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unused/ref.index.cljs.hl" />
+    <list default="true" id="6a3f35b4-8008-4c34-bbb9-c4a6e835c3b6" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_clojure.core_SLASH_garden_tmp\dir.tmp\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_cljs_stage\dir.tmp\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_ext_out\dir.tmp\0000000002_jquery.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_ext_out\dir.tmp\0000000003_Hyphenator.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_ext_out\dir.tmp\0000000005_mixpanel.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_inc_out\dir.tmp\0000000001_jquery.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_inc_out\dir.tmp\0000000004_Hyphenator.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_inc_out\dir.tmp\0000000006_mixpanel.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\cljs\core.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\cljs\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\cljs\reader.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\cljs\reader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\clojure\string.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\clojure\string.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\arithmetic.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\arithmetic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\color.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\color.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\compiler.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\core.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\stylesheet.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\stylesheet.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\types.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\types.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\units.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\units.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\util.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\garden\util.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\hoplon.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\hoplon.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\hoplon\app_pages\_index_DOT_html.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\hoplon\reload.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\hoplon\reload.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\hoplon\util.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\hoplon\util.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\javelin.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\javelin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\priority_map.cljs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot.task_SLASH_output_dir\dir.tmp\tailrecursion\priority_map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.boot_SLASH_bootscript\dir.tmp\tailrecursion\boot\user.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.hoplon.boot_SLASH_phantom_tmp1\dir.tmp\render.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\.boot\tmp\9517\_COLON_tailrecursion.hoplon.boot_SLASH_public_out\dir.tmp\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\assets\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\assets\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\assets\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\assets\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\assets\css\starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\bower_components\fastclick\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\bower_components\foundation\css\foundation.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\bower_components\jquery-placeholder\LICENSE-GPL.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\bower_components\jquery-placeholder\jquery.placeholder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\bower_components\jquery\src\var\trim.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\extra materials\GS_product_info_for_ryan.doc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\extra materials\Natural Plant Health Care (Grounded Solutions) (1).pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\extra materials\Pine_flatwoods_palmetto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\CNAME" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\app.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\github.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\css\starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\img\grounded-trans-bar_01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\img\grounded-trans-bar_02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\img\grounded-trans-bar_03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\img\groundedsol_02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\img\groundedsol_04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\img\groundedsol_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\img\image assets" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\js\prefixfree.min.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\public\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\src\mixpanel.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\src\mixpanel.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\src\pmbauer\boot\task\cljs.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\src\pmbauer\boot\task\cljs\inject.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\src\pmbauer\boot\task\repl.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\src\test\garden_compass\helpers\.#inline_data_test.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rigalo\Desktop\Dev\groundedsol.com\untitled.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/2wx4h.gif" afterPath="$PROJECT_DIR$/src/test/resources/2wx4h.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/2wx4h.jpg" afterPath="$PROJECT_DIR$/src/test/resources/2wx4h.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/2wx4h.png" afterPath="$PROJECT_DIR$/src/test/resources/2wx4h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/dummy.gif" afterPath="$PROJECT_DIR$/src/test/resources/dummy.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/dummy.jpg" afterPath="$PROJECT_DIR$/src/test/resources/dummy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/dummy.png" afterPath="$PROJECT_DIR$/src/test/resources/dummy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/koolaid.png" afterPath="$PROJECT_DIR$/src/test/resources/koolaid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/map-shot.jpg" afterPath="$PROJECT_DIR$/src/test/resources/map-shot.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fastclick/.bower.json" afterPath="$PROJECT_DIR$/bower_components/fastclick/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/.bower.json" afterPath="$PROJECT_DIR$/bower_components/foundation/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery-placeholder/.bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery-placeholder/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery.cookie/.bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery.cookie/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/.editorconfig" afterPath="$PROJECT_DIR$/src/animate.css/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery-placeholder/.gitattributes" afterPath="$PROJECT_DIR$/bower_components/jquery-placeholder/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery-placeholder/.gitignore" afterPath="$PROJECT_DIR$/bower_components/jquery-placeholder/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/.gitignore" afterPath="$PROJECT_DIR$/src/animate.css/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/CNAME" afterPath="$PROJECT_DIR$/assets/CNAME" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/Gruntfile.js" afterPath="$PROJECT_DIR$/src/animate.css/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hyphenator.ext.js" afterPath="$PROJECT_DIR$/src/Hyphenator.ext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hyphenator.inc.js" afterPath="$PROJECT_DIR$/src/Hyphenator.inc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery-placeholder/LICENSE-MIT.txt" afterPath="$PROJECT_DIR$/bower_components/jquery-placeholder/LICENSE-MIT.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fastclick/README.md" afterPath="$PROJECT_DIR$/bower_components/fastclick/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery-placeholder/README.md" afterPath="$PROJECT_DIR$/bower_components/jquery-placeholder/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/README.md" afterPath="$PROJECT_DIR$/src/animate.css/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_accordion.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_accordion.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_alert-boxes.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_alert-boxes.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/_base.css" afterPath="$PROJECT_DIR$/src/animate.css/source/_base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_block-grid.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_block-grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_button-groups.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_button-groups.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_buttons.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_forms.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_global.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_grid.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_inline-lists.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_inline-lists.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_joyride.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_joyride.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_labels.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_labels.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/.bin/_mocha" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/.bin/_mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/bin/_mocha" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/bin/_mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_offcanvas.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_offcanvas.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_orbit.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_orbit.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_pagination.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_pagination.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_panels.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_panels.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_pricing-tables.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_pricing-tables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_progress-bars.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_progress-bars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_reveal.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_reveal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/_settings.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_settings.scss" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_side-nav.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_side-nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_split-buttons.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_split-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_sub-nav.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_sub-nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_switch.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_switch.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tables.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tabs.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tooltips.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tooltips.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_top-bar.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_top-bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_type.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_type.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_visibility.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_visibility.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/accepts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/animate-config.json" afterPath="$PROJECT_DIR$/src/animate.css/animate-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/animate.css" afterPath="$PROJECT_DIR$/src/animate.css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/animate.min.css" afterPath="$PROJECT_DIR$/assets/css/animate.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/animate.min.css" afterPath="$PROJECT_DIR$/src/animate.css/animate.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/app.css" afterPath="$PROJECT_DIR$/assets/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/app.scss" afterPath="$PROJECT_DIR$/src/scss/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/arguments.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/arguments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-sass/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/grunt-sass/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/bin.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/rimraf/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/optimist/test/_/bin.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/optimist/test/_/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/bounce.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/bounce.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceIn.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInDown.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInUp.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_entrances/bounceInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOut.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutDown.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutUp.css" afterPath="$PROJECT_DIR$/src/animate.css/source/bouncing_exits/bounceOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fastclick/bower.json" afterPath="$PROJECT_DIR$/bower_components/fastclick/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/bower.json" afterPath="$PROJECT_DIR$/bower_components/foundation/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/bower.json" afterPath="$PROJECT_DIR$/src/animate.css/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unused/broken.grounded.index.cljs.hl" afterPath="$PROJECT_DIR$/unused/broken.grounded.index.cljs.hl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.boot" afterPath="$PROJECT_DIR$/build.boot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/cake" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/cake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/coffee-script/bin/cake" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/coffee-script/bin/cake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/choice.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/choice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/utilities/general/clearfix.clj" afterPath="$PROJECT_DIR$/src/compass/utilities/general/clearfix.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/clearfix_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/clearfix_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/clojure_project.xml" afterPath="$PROJECT_DIR$/.idea/clojure_project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/coffee" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/coffee-script/bin/coffee" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/coffee-script/bin/coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/helpers/colors.clj" afterPath="$PROJECT_DIR$/src/compass/helpers/colors.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/helpers/colors_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/helpers/colors_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/config.clj" afterPath="$PROJECT_DIR$/src/compass/config.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/libsass/config.guess" afterPath="$PROJECT_DIR$/node_modules/node-sass/libsass/config.guess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/libsass/config.sub" afterPath="$PROJECT_DIR$/node_modules/node-sass/libsass/config.sub" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/constants.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/utilities/color/contrast.clj" afterPath="$PROJECT_DIR$/src/compass/utilities/color/contrast.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/utilities/color/contrast_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/utilities/color/contrast_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/exit/test/fixtures/create-files.sh" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/exit/test/fixtures/create-files.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/garden/css.clj" afterPath="$PROJECT_DIR$/src/garden/css.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/css3.clj" afterPath="$PROJECT_DIR$/src/compass/css3.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/css3_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/css3_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/css_functions.clj" afterPath="$PROJECT_DIR$/src/compass/css_functions.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_priv.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_priv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_user.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/defaultDisplay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery-placeholder/demo.html" afterPath="$PROJECT_DIR$/bower_components/jquery-placeholder/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/libsass/depcomp" afterPath="$PROJECT_DIR$/node_modules/node-sass/libsass/depcomp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/helpers/display.clj" afterPath="$PROJECT_DIR$/src/compass/helpers/display.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/helpers/display_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/helpers/display_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esparse.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esparse" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esparse" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esvalidate" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esvalidate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/exec.sh" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/exec.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeIn.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInDown.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInDownBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInDownBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInLeftBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInLeftBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInRightBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInRightBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInUp.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInUpBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_entrances/fadeInUpBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOut.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutDown.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutDownBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutDownBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutLeftBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutLeftBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutRightBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutRightBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutUp.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutUpBig.css" afterPath="$PROJECT_DIR$/src/animate.css/source/fading_exits/fadeOutUpBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fastclick/lib/fastclick.js" afterPath="$PROJECT_DIR$/bower_components/fastclick/lib/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/flash.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/flash.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/flippers/flip.css" afterPath="$PROJECT_DIR$/src/animate.css/source/flippers/flip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/flippers/flipInX.css" afterPath="$PROJECT_DIR$/src/animate.css/source/flippers/flipInX.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/flippers/flipInY.css" afterPath="$PROJECT_DIR$/src/animate.css/source/flippers/flipInY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/flippers/flipOutX.css" afterPath="$PROJECT_DIR$/src/animate.css/source/flippers/flipOutX.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/flippers/flipOutY.css" afterPath="$PROJECT_DIR$/src/animate.css/source/flippers/flipOutY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/utilities/general/float.clj" afterPath="$PROJECT_DIR$/src/compass/utilities/general/float.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/float_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/float_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.abide.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.abide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.accordion.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.accordion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.alert.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.clearing.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.clearing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/css/foundation.css" afterPath="$PROJECT_DIR$/bower_components/foundation/css/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.dropdown.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.equalizer.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.equalizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.interchange.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.interchange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.joyride.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.joyride.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.magellan.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.magellan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation.min.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.offcanvas.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.offcanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.orbit.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.orbit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.reveal.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.reveal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.slider.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tab.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tooltip.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.topbar.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.topbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/github.css" afterPath="$PROJECT_DIR$/assets/css/github.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/utilities/general/hacks.clj" afterPath="$PROJECT_DIR$/src/compass/utilities/general/hacks.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/hacks_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/hacks_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/help.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/help.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/libsass/sass-spec/helper1.rb" afterPath="$PROJECT_DIR$/node_modules/node-sass/libsass/sass-spec/helper1.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/helpers.clj" afterPath="$PROJECT_DIR$/src/compass/helpers.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/helpers_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/helpers_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/specials/hinge.css" afterPath="$PROJECT_DIR$/src/animate.css/source/specials/hinge.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unused/hoplon.io.cljs.hl" afterPath="$PROJECT_DIR$/unused/hoplon.io.cljs.hl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/helpers/image_size.clj" afterPath="$PROJECT_DIR$/src/compass/helpers/image_size.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/helpers/image_size_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/helpers/image_size_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.cljs.hl" afterPath="$PROJECT_DIR$/src/index.cljs.hl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unused/index2.cljs.hl" afterPath="$PROJECT_DIR$/unused/index2.cljs.hl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/helpers/inline_data.clj" afterPath="$PROJECT_DIR$/src/compass/helpers/inline_data.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/helpers/inline_data_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/helpers/inline_data_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/libsass/install-sh" afterPath="$PROJECT_DIR$/node_modules/node-sass/libsass/install-sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/intro.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/intro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHidden.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/node_modules/.bin/jade" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/node_modules/.bin/jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/node_modules/jade/bin/jade" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/node_modules/jade/bin/jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery.cookie/jquery.cookie.js" afterPath="$PROJECT_DIR$/bower_components/jquery.cookie/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery-placeholder/jquery.placeholder.js" afterPath="$PROJECT_DIR$/bower_components/jquery-placeholder/jquery.placeholder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/bin/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/bin/js-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/js-yaml" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/js-yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/lightspeed/lightSpeedIn.css" afterPath="$PROJECT_DIR$/src/animate.css/source/lightspeed/lightSpeedIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/lightspeed/lightSpeedOut.css" afterPath="$PROJECT_DIR$/src/animate.css/source/lightspeed/lightSpeedOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/utilities/general/min.clj" afterPath="$PROJECT_DIR$/src/compass/utilities/general/min.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/min_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/utilities/general/min_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/libsass/missing" afterPath="$PROJECT_DIR$/node_modules/node-sass/libsass/missing" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/.bin/mocha" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/.bin/mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/bin/mocha" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/mocha/bin/mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/noptify/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/noptify/node_modules/nopt/examples/my-program.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/examples/my-program.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/nargs.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/nargs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/noptify/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/noptify/node_modules/nopt/bin/nopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/nopt/bin/nopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/noptify/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/noptify/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/css/normalize.css" afterPath="$PROJECT_DIR$/bower_components/foundation/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/normalize.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/normalize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/outro.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/outro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/package.json" afterPath="$PROJECT_DIR$/src/animate.css/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/parents.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/parents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseJSON.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/parser.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/prepublish.sh" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/prepublish.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/pulse.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/pulse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unused/ref.index.cljs.hl" afterPath="$PROJECT_DIR$/unused/ref.index.cljs.hl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/rimraf" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/rimraf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/rnotwhite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/specials/rollIn.css" afterPath="$PROJECT_DIR$/src/animate.css/source/specials/rollIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/specials/rollOut.css" afterPath="$PROJECT_DIR$/src/animate.css/source/specials/rollOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateIn.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInDownLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInDownLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInDownRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInDownRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInUpLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInUpLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInUpRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_entrances/rotateInUpRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOut.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutDownLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutDownLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutDownRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutDownRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutUpLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutUpLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutUpRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/rotating_exits/rotateOutUpRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/rubberBand.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/rubberBand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/libsass/sass-spec/run.rb" afterPath="$PROJECT_DIR$/node_modules/node-sass/libsass/sass-spec/run.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/helpers/selectors.clj" afterPath="$PROJECT_DIR$/src/compass/helpers/selectors.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/helpers/selectors_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/helpers/selectors_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/shake.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/shake.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/sliders/slideInDown.css" afterPath="$PROJECT_DIR$/src/animate.css/source/sliders/slideInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/sliders/slideInLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/sliders/slideInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/sliders/slideInRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/sliders/slideInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/sliders/slideOutLeft.css" afterPath="$PROJECT_DIR$/src/animate.css/source/sliders/slideOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/sliders/slideOutRight.css" afterPath="$PROJECT_DIR$/src/animate.css/source/sliders/slideOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/sliders/slideOutUp.css" afterPath="$PROJECT_DIR$/src/animate.css/source/sliders/slideOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/strundefined.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/strundefined.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sum.js" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/swap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/swing.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/swing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/tada.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/tada.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/.bin/tiny-lr" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/.bin/tiny-lr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/bin/tiny-lr" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/bin/tiny-lr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/bin/update-livereload" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/bin/update-livereload" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/helpers/urls.clj" afterPath="$PROJECT_DIR$/src/compass/helpers/urls.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/helpers/urls_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/helpers/urls_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/util.clj" afterPath="$PROJECT_DIR$/src/compass/util.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/util_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/util_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compass/reset/utilities.clj" afterPath="$PROJECT_DIR$/src/compass/reset/utilities.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/garden_compass/reset/utilities_test.clj" afterPath="$PROJECT_DIR$/src/test/garden_compass/reset/utilities_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/which" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/.bin/which" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt/node_modules/which/bin/which" afterPath="$PROJECT_DIR$/node_modules/grunt/node_modules/which/bin/which" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/wobble.css" afterPath="$PROJECT_DIR$/src/animate.css/source/attention_seekers/wobble.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" />
     </list>
     <ignored path="groundedsol.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +455,39 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/garden/css.clj" line="21" class="Class at css.clj:21" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/index.cljs.hl" line="71" class="Class at index.cljs.hl:69" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -57,102 +523,26 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/garden/css.clj" line="21" class="Class at css.clj:21" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/index.cljs.hl" line="71" class="Class at index.cljs.hl:69" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="groundedsol.com" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55064654">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.cljs.hl" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="7" selection-start="724" selection-end="724" vertical-scroll-proportion="0.6991525" vertical-offset="0" max-vertical-offset="4695">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="build.boot" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build.boot">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1185">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="css.clj" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="94" column="7" selection-start="1830" selection-end="1830" vertical-scroll-proportion="0.8559322" vertical-offset="1066" max-vertical-offset="1740">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="starter-template.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/css/starter-template.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1185">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ref.index.cljs.hl" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="166" column="13" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0" vertical-offset="2490" max-vertical-offset="5580">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="build.boot" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.boot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.4264972" vertical-offset="1428" max-vertical-offset="4401">
+              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -161,6 +551,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/index.cljs.hl" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -175,14 +568,44 @@
         <option value="$PROJECT_DIR$/src/garden/css.clj" />
         <option value="$PROJECT_DIR$/src/index.cljs.hl" />
         <option value="$PROJECT_DIR$/build.boot" />
+        <option value="$PROJECT_DIR$/src/scss/app.scss" />
+        <option value="$PROJECT_DIR$/Grounded Solutions.html" />
       </list>
     </option>
   </component>
+  <component name="JsGruntFileManager">
+    <gruntfiles>
+      <GruntfileState>
+        <alias-tasks>
+          <alias-task value="build" />
+          <alias-task value="default" />
+        </alias-tasks>
+        <multi-tasks>
+          <GruntMultiTaskState>
+            <name>sass</name>
+            <targets>
+              <target value="dist" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>watch</name>
+            <targets>
+              <target value="grunt" />
+              <target value="sass" />
+            </targets>
+          </GruntMultiTaskState>
+        </multi-tasks>
+        <gruntfile-path>$PROJECT_DIR$/Gruntfile.js</gruntfile-path>
+      </GruntfileState>
+    </gruntfiles>
+    <initial>false</initial>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="1024" />
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -220,7 +643,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -232,7 +655,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,20 +684,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unused" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groundedsol.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groundedsol.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -294,7 +702,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="garden" />
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,25 +716,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groundedsol.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groundedsol.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,7 +734,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -350,6 +748,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,17 +758,16 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -377,9 +775,11 @@
       <recent name="$PROJECT_DIR$/unused" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rigalo\Desktop\Dev\groundedsol.com\assets" />
+      <recent name="C:\Users\rigalo\Desktop\Dev\groundedsol.com\assets\graphics" />
+      <recent name="C:\Users\rigalo\Desktop\Dev\groundedsol.com\resources\public" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/unused" />
-      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
   </component>
   <component name="Regex">
@@ -393,19 +793,18 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Clojure REPL.Local REPL">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="useLein" value="true" />
+      <setting name="leinProjectName" value="" />
       <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="" />
-      <setting name="repl" value="false" />
-      <method />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <method>
+        <option name="Synchronize Leiningen" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -415,33 +814,10 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Local">
-      <setting name="useLein" value="true" />
-      <setting name="leinProjectName" value="" />
-      <module name="" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -455,6 +831,33 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -472,42 +875,24 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
-        </LauncherParameters>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
       </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="Local REPL" type="ClojureREPL" factoryName="Local">
@@ -519,7 +904,10 @@
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Local REPL Run" />
       <ConfigurationWrapper RunnerId="Local REPL Run" />
-      <method />
+      <method>
+        <option name="Synchronize Leiningen" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Clojure REPL.Local REPL" />
@@ -558,6 +946,21 @@
       <workItem from="1392251448665" duration="563000" />
       <workItem from="1392306050998" duration="23945000" />
       <workItem from="1393120089237" duration="1963000" />
+      <workItem from="1408729591127" duration="78000" />
+      <workItem from="1408729713904" duration="423000" />
+      <workItem from="1408730323977" duration="370000" />
+      <workItem from="1408730936292" duration="1910000" />
+      <workItem from="1408754480392" duration="514000" />
+      <workItem from="1408755033776" duration="3313000" />
+      <workItem from="1408769474394" duration="598000" />
+      <workItem from="1408798950749" duration="98000" />
+      <workItem from="1408799133590" duration="611000" />
+      <workItem from="1408801539741" duration="308000" />
+      <workItem from="1408808571920" duration="232000" />
+      <workItem from="1408977011841" duration="2942000" />
+      <workItem from="1408980091268" duration="5465000" />
+      <workItem from="1409419707339" duration="307000" />
+      <workItem from="1409420108583" duration="7589000" />
     </task>
     <task id="LOCAL-00001" summary="pre getting ready to transition codebase to new template">
       <created>1392310934926</created>
@@ -567,17 +970,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78397000" />
+    <option name="totallyTimeSpent" value="103155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1024" width="1280" height="800" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26900584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22971429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -585,25 +986,33 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24838188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27604726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32551318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -611,15 +1020,33 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="pre getting ready to transition codebase to new template" />
     <MESSAGE value="worked out bug by rebuilding from scratch, scraping off of boostrasp laden hoplon.io page" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked out bug by rebuilding from scratch, scraping off of boostrasp laden hoplon.io page" />
+    <MESSAGE value="tooling off and on for a bit, working on reply flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="tooling off and on for a bit, working on reply flow" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/garden/css.clj</url>
+          <line>21</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/index.cljs.hl</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -628,160 +1055,372 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="22" selection-start="6019" selection-end="6019" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2640">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7945">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.boot">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/starter-template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/starter-template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="915">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3920">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="698" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.024232633" vertical-offset="0" max-vertical-offset="619" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8141962" vertical-offset="390" max-vertical-offset="6960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-11.524009" vertical-offset="5520" max-vertical-offset="106395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/broken.grounded.index.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2416" selection-end="2416" vertical-scroll-proportion="-0.518018" vertical-offset="1830" max-vertical-offset="2670" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/panel.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/tabs.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/button.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/list.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/hoplon.io.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="25" selection-start="7265" selection-end="7265" vertical-scroll-proportion="3.6448598" vertical-offset="690" max-vertical-offset="6225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old.build.boot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="544" selection-end="587" vertical-scroll-proportion="0.5732484" vertical-offset="0" max-vertical-offset="1620" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/meta.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.29094827" vertical-offset="0" max-vertical-offset="464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/page.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/core.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.36697248" vertical-offset="0" max-vertical-offset="654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/navbar.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="-0.03448276" vertical-offset="16" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/index2.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="2599" selection-end="2599" vertical-scroll-proportion="-0.6810345" vertical-offset="2071" max-vertical-offset="2760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/grid.cljs.hl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="7" selection-start="1830" selection-end="1830" vertical-scroll-proportion="0.8559322" vertical-offset="1066" max-vertical-offset="1740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/starter-template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1350">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="3675">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="13" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0" vertical-offset="2490" max-vertical-offset="5580">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5810" max-vertical-offset="13020">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="7945">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.boot">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1185">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3920">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="3675">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5810" max-vertical-offset="13020">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7945">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3920">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="3675">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5810" max-vertical-offset="13020">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7945">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3920">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="3675">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5810" max-vertical-offset="13020">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7945">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3920">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3675">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5810" max-vertical-offset="13020">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3859">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1904">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="1785">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2822" max-vertical-offset="6324">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="3859">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1904">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1184" max-vertical-offset="1785">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2822" max-vertical-offset="6324">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3859">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1904">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2822" max-vertical-offset="6324">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2640">
+          <caret line="110" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1065">
+          <caret line="65" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/broken.grounded.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.518018" vertical-offset="1830" max-vertical-offset="2670">
+          <caret line="99" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/hoplon.io.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6448598" vertical-offset="690" max-vertical-offset="6225">
+          <caret line="254" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/index2.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6810345" vertical-offset="2071" max-vertical-offset="2760">
+          <caret line="112" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/ref.index.cljs.hl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2822" max-vertical-offset="6324">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garden/css.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.532646" vertical-offset="0" max-vertical-offset="3675">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1000">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_foundation-components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30120483" vertical-offset="35" max-vertical-offset="1806">
+          <caret line="6" column="30" selection-start-line="3" selection-start-column="9" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8554218" vertical-offset="2240" max-vertical-offset="51926">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="863">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58043116" vertical-offset="525" max-vertical-offset="7883">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.cljs.hl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="724" selection-end="724" vertical-scroll-proportion="0.6991525" vertical-offset="0" max-vertical-offset="4695">
+        <state vertical-scroll-proportion="0.6614173" vertical-offset="140" max-vertical-offset="10190">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.boot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4264972" vertical-offset="1428" max-vertical-offset="4401">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
           <folding />
         </state>
       </provider>
